@@ -1,0 +1,16 @@
+Script starting...
+Waiting for RStudio Server to open port 36890...
+Setting loadRData to true
+sed: can't read /home/kangpiny/.rstudio/monitored/user-settings/user-settings: No such file or directory
+
+Currently Loaded Modules:
+  1) R/3.5.1
+
+
+
+chmod: changing permissions of ‘/tmp/rstudio-server/’: Operation not permitted
++ echo 'Starting up rserver...'
+Starting up rserver...
++ singularity run -B /tmp:/tmp /home/software/CentOS/7.6.1810/singularityImages/rserver-launcher-centos7.simg --www-port 36890 --auth-none 0 --auth-pam-helper-path /home/kangpiny/ondemand/data/sys/dashboard/batch_connect/sys/bc_osc_rstudio_server/ufp/output/343a5ca9-8cfd-406c-8e44-36922f1740ec/bin/auth --auth-encrypt-password 0 --rsession-path /home/kangpiny/ondemand/data/sys/dashboard/batch_connect/sys/bc_osc_rstudio_server/ufp/output/343a5ca9-8cfd-406c-8e44-36922f1740ec/rsession.sh --secure-cookie-key-file /tmp/rstudio-server/kangpiny_secure-cookie-key
+Discovered RStudio Server listening on port 36890!
+Generating connection YAML file...

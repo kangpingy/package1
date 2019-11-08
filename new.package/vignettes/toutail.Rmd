@@ -1,0 +1,25 @@
+---
+title: "toutail"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{toutail}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is how to use this package
+
+```{r setup}
+library(new.package)
+
+```
+
+
+

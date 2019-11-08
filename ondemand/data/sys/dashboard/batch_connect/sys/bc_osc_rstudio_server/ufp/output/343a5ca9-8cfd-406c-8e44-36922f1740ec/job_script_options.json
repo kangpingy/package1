@@ -1,0 +1,14 @@
+{
+  "job_name": "sys/dashboard/sys/bc_osc_rstudio_server/ufp",
+  "workdir": "/home/kangpiny/ondemand/data/sys/dashboard/batch_connect/sys/bc_osc_rstudio_server/ufp/output/343a5ca9-8cfd-406c-8e44-36922f1740ec",
+  "output_path": "/home/kangpiny/ondemand/data/sys/dashboard/batch_connect/sys/bc_osc_rstudio_server/ufp/output/343a5ca9-8cfd-406c-8e44-36922f1740ec/output.log",
+  "shell_path": "/bin/bash",
+  "wall_time": 3600,
+  "email_on_started": false,
+  "native": [
+    "--mem",
+    "4096",
+    "--cpus-per-task",
+    "1"
+  ]
+}
